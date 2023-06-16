@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
 import { useLocation, useNavigate } from 'react-router-dom';
 import { io } from 'socket.io-client'
-// import './chart.css'
 import classes from './chart.module.css'
 import { Col, Container, Row } from 'react-bootstrap'
 import { ToastContainer, toast } from 'react-toastify';
@@ -97,24 +96,6 @@ const Chart = () => {
 
     return (
         <div className={classes.light}>
-            {/* <ul>
-                {
-                    msgs.map((val, idx) => {
-                        return (
-                            <>
-                                <li>{JSON.stringify(`${val.user} ${val.text}`)}</li>
-                                <li>{val.text}</li>
-                            </>
-
-                        )
-                    })}
-                <input
-                    onKeyUpCapture={event => event.key === 'Enter' ? sendmesg(event) : null}
-                    // onClick={() => sendmesg()}
-                    onChange={(event) => Setmsg(event.target.value)}
-                    value={msg}
-                />
-            </ul> */}
 
 
             <ToastContainer />
