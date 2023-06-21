@@ -15,5 +15,5 @@ Technologies used:
 
 
 
-For a live demo, visit [link-to-demo]((https://clever-chaja-38768f.netlify.app/)).
+For a live demo, visit [link-to-demo]([(https://clever-chaja-38768f.netlify.app/)]).
 
